@@ -1,0 +1,23 @@
+.counter-circle{
+    height: 140px;
+    width: 140px;
+    background: #ff6666;
+    border-radius: 50%;
+}
+.counter-circle-dashed{
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    border: 2px dashed #3498db;
+    border-radius: 50%;
+    animation: rotate 4s linear infinite
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
